@@ -2,339 +2,359 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  /*
     font-family: "Roboto Slab", serif;
     font-family: "Ubuntu", sans-serif;
     font-family: "Elsie Swash Caps", cursive;
+    */
 }
 
 body {
-    background: #cfd2c6;
+  background: #cfd2c6;
 }
 
 .home {
-    height: 100vh;
-    background: url(background.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+  height: 100vh;
+  background: url(background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 h1.head {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 65px;
-    font-weight: 700;
-    margin-left: 170px;
-    margin-top: 196px;
-    line-height: 120%;
-    color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  margin-left: 170px;
+  margin-top: 196px;
+  line-height: 120%;
+  color: #ffffff;
 }
 
 .nav {
-    height: 120px;
-    padding: 0px 80px 0px 80px;
-    display: block;
+  height: 120px;
+  padding: 0px 80px 0px 80px;
 }
 
 h1.logo {
-    color: #ffffff;
-    text-align: center;
-    font-family: "Elsie Swash Caps", cursive;
-    font-size: 32px;
-    font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Elsie Swash Caps", cursive;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: "Roboto Slab", serif;
-    font-size: 18px;
-    font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 li {
-    list-style: none;
-    margin: 0px 20px 0px 20px;
+  list-style: none;
+  margin: 0px 20px 0px 20px;
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 /*
 Menu Section  
 */
 
 div.about-us {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
 }
 
 h1.about {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 64px;
-    color: #36392d;
-    margin-left: 170px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #36392d;
+  margin-left: 170px;
 }
 
 p.about-parag {
-    font-family: "Roboto Slab", serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 27px;
-    margin-left: 521px;
-    margin-right: 150px;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-left: 521px;
+  margin-right: 150px;
+}
+
+.fa-solid {
+  font-size: 50px;
+  color: #36392d;
+}
+
+.fa-circle-chevron-left {
+  margin: 80px 25px 0px 170px;
+}
+
+.fa-solid:hover {
+  color: #6c7359;
+  cursor: pointer;
 }
 
 div.res-pic {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px 30px 0px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 30px 0px 30px;
 }
 
 img.about-pic {
-    margin-top: 90px;
-    border: 2px solid #9fa68c;
-    border-radius: 15px;
+  margin-top: 90px;
+  border: 2px solid #9fa68c;
+  border-radius: 15px;
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 80px 463px 40px 463px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 463px 40px 463px;
 }
 
 h1.menu-head {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 60px;
-    font-weight: 700;
-    color: #36392d;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #36392d;
 }
 
 p.menu-parag {
-    font-family: "Roboto Slab", serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 27px;
-    margin-top: 24px;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 24px;
 }
 
 span.menu-span {
-    font-family: "Roboto Slab", serif;
-    font-size: 14px;
-    font-weight: 600;
-    border: 1px solid #9fa68c;
-    border-radius: 16px;
-    padding: 16px 40px 16px 40px;
-    margin: 0px 10px;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #9fa68c;
+  border-radius: 16px;
+  padding: 16px 40px 16px 40px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+span#Appetizers {
+  background-color: #b7bca9;
 }
 
 span.menu-span:hover {
-    background-color: #b7bca9;
+  background-color: #b7bca9;
 }
 
 div.menu-types {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
 }
 
 div.food-pic {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 90px 30px 0px 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 90px 30px 0px 30px;
 }
 
 img.menu-pic {
-    margin-top: 90px;
-    border: 2px solid #9fa68c;
-    border-radius: 15px;
-    margin: 0px 26px 0px 27px;
+  margin-top: 90px;
+  border: 2px solid #9fa68c;
+  border-radius: 15px;
+  margin: 0px 26px 0px 27px;
 }
-
 
 /*
 Our team
 */
 
 div.our-team {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
 }
 
 h1.our-word {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 64px;
-    color: #36392d;
-    margin-left: 170px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #36392d;
+  margin-left: 170px;
 }
 
 p.team-parag {
-    font-family: "Roboto Slab", serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 27px;
-    margin-left: 521px;
-    margin-right: 150px;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-left: 521px;
+  margin-right: 150px;
 }
 
 div.team-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 30px 80px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 30px 80px 30px;
 }
 
 div.team-member {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 img.member-pic {
-    margin: 90px 25px 30px 25px;
-    border: 2px solid #9fa68c;
-    border-radius: 15px;
+  margin: 90px 25px 30px 25px;
+  border: 2px solid #9fa68c;
+  border-radius: 15px;
 }
 
 p.name {
-    text-align: center;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 10px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 p.job {
-    text-align: center;
-    font-family: "Roboto Slab", serif;
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 10px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 p.member-description {
-    width: 250px;
-    text-align: center;
-    font-family: "Roboto Slab", serif;
-    font-size: 14px;
-    font-weight: 400;
+  width: 250px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 400;
 }
-
 
 /*
 events */
 
 h1.event-head {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 64px;
-    color: #36392d;
-    margin-left: 170px;
-    margin-bottom: 80px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #36392d;
+  margin-left: 170px;
+  margin-bottom: 80px;
 }
 
 div.top-img {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 50px 170px 50px 170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 170px 50px 170px;
 }
 
 div.down-img {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 50px 170px 50px 170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 170px 50px 170px;
 }
 
 img.event-pic {
-    border: 2px solid #9fa68c;
-    border-radius: 15px;
+  border: 2px solid #9fa68c;
+  border-radius: 15px;
 }
-
 
 /*
 footer*/
 
 div.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px;
 }
 
 h1.footer-logo {
-    text-align: center;
-    color: #36392d;
-    margin-right: 100px;
+  font-family: "Elsie Swash Caps", cursive;
+  text-align: center;
+  color: #36392d;
+  margin-right: 100px;
 }
 
 li.footer-li {
-    margin: 10px;
+  margin: 10px;
 }
 
 a.footer-a {
-    font-size: 16px;
-    font-weight: 400;
-    color: #36392d;
+  font-size: 16px;
+  font-weight: 400;
+  color: #36392d;
 }
 
 div.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 p.contact-parag {
-    font-family: "Roboto Slab", serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #36392d;
-    margin-bottom: 20px;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #36392d;
+  margin-bottom: 20px;
 }
 
 input.email {
-    width: 190px;
-    background-color: #cfd2c6;
+  width: 190px;
+  background-color: #cfd2c6;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px #36392d;
 }
 
 input.email::placeholder {
-    font-family: "Roboto Slab", serif;
-    font-size: 12px;
-    text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 12px;
+  text-align: center;
 }
 
 p.icon-parag {
-    text-align: center;
-    font-family: "Roboto Slab", serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #36392d;
-    margin-bottom: 20px;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #36392d;
+  margin-bottom: 20px;
 }
