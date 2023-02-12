@@ -15,6 +15,9 @@ body {
 
 .home {
     height: 100vh;
+    background: url(background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 h1.head {
@@ -75,6 +78,7 @@ div.about-us {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
 }
 
 h1.about {
@@ -93,6 +97,19 @@ p.about-parag {
     line-height: 27px;
     margin-left: 521px;
     margin-right: 150px;
+}
+
+div.res-pic {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+}
+
+img.about-pic {
+    margin-top: 90px;
+    border: 2px solid #9fa68c;
+    border-radius: 15px;
 }
 
 .menu {
@@ -139,6 +156,20 @@ div.menu-types {
     margin-top: 24px;
 }
 
+div.food-pic {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 30px 0px 30px;
+}
+
+img.menu-pic {
+    margin-top: 90px;
+    border: 2px solid #9fa68c;
+    border-radius: 15px;
+    margin: 0px 26px 0px 27px;
+}
+
 
 /*
 Our team
@@ -173,12 +204,20 @@ div.team-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 190px 144px 80px 144px;
+    margin: 0px 30px 80px 30px;
+}
+
+div.team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 img.member-pic {
-    width: 370px;
-    height: 600px;
+    margin: 90px 25px 30px 25px;
+    border: 2px solid #9fa68c;
+    border-radius: 15px;
 }
 
 p.name {
@@ -186,6 +225,7 @@ p.name {
     font-family: "Ubuntu", sans-serif;
     font-size: 16px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 p.job {
@@ -193,14 +233,20 @@ p.job {
     font-family: "Roboto Slab", serif;
     font-size: 14px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 p.member-description {
+    width: 250px;
     text-align: center;
     font-family: "Roboto Slab", serif;
     font-size: 14px;
     font-weight: 400;
 }
+
+
+/*
+events */
 
 h1.event-head {
     font-family: "Ubuntu", sans-serif;
@@ -209,26 +255,31 @@ h1.event-head {
     line-height: 64px;
     color: #36392d;
     margin-left: 170px;
+    margin-bottom: 80px;
 }
 
 div.top-img {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 80px;
+    margin: 50px 170px 50px 170px;
 }
 
 div.down-img {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 80px;
+    margin: 50px 170px 50px 170px;
 }
 
 img.event-pic {
-    width: 700px;
-    height: 500px;
+    border: 2px solid #9fa68c;
+    border-radius: 15px;
 }
+
+
+/*
+footer*/
 
 div.footer-container {
     display: flex;
@@ -277,4 +328,13 @@ input.email::placeholder {
     font-family: "Roboto Slab", serif;
     font-size: 12px;
     text-align: center;
+}
+
+p.icon-parag {
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #36392d;
+    margin-bottom: 20px;
 }
